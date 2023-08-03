@@ -1,0 +1,67 @@
+static void Main(string[] args)
+        {
+            Console.WireLine("Welcome to the History Quiz Game!")
+        
+            Console.WriteLine("True or False: The Hundred Year War was exactly 100 years")
+            string answer = Console.Readline();
+            Console.WriteLine("You answered: " + answer);
+            int score = 100
+            
+            if(answer == "False")
+            {
+                Console.WriteLine("Correct answer");
+                score++; //Increases the score by 1
+            }
+            else
+            {
+                Console.Writeline("Incorrect answer");
+            }
+            
+            Console.WriteLine("Your score is" + score);
+            }
+            
+            Console.WriteLine("True or False: Archduke Franz Ferdinand's Assassination triggered WWI")
+            string answer = Console.Readline();
+            if(answer == "True")
+            {
+                Console.WriteLine("Correct answer")
+                score++; //Increases the score by 1
+            }
+            else
+            {
+                Console.WriteLine("Incorrect answer")
+            }
+            
+             Console.WriteLine("Your score is " + score);
+        
+            Console.WriteLine("True or False: South Korea Conquered North Korea in the Korean War")
+            string answer = Console.ReadLine();
+            if(answer == "True")
+            {
+                Console.WriteLine("Correct answer")
+                score++; //Increases the score by 1
+            }
+            else
+            {
+                Console.WriteLine("Incorrect answer")
+            }
+            
+            }
+            
+            Console.WriteLine("Your score is " + score);
+            
+            Console.WriteLine("True or False: India fought in the American Indian Wars")
+            answer = Console.ReadLine();
+            if(answer == "True")
+            {
+                Console.WriteLine("Correct answer");
+                score++; //Increases the score by 1
+            else
+            {
+                Console.WriteLine("Incorrect answer")
+            }
+            
+            Console.WriteLine("Your score is " + score)
+        }
+            
+            
